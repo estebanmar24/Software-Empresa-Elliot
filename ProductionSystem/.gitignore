@@ -1,0 +1,48 @@
+# ===== Production System Root .gitignore =====
+
+# ----- IDE & Editor -----
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ----- OS Files -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- Node.js -----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----- .NET -----
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+publish/
+out/
+
+# ----- Expo / React Native -----
+.expo/
+dist/
+web-build/
+
+# ----- Local Config (secrets) -----
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.local
+.env.*.local
+
+# ----- Temporary Files -----
+*.log
+*.tmp
+*.temp
+*.resolved

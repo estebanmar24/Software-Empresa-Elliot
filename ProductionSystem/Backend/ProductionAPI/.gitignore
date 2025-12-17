@@ -1,0 +1,18 @@
+# .NET Build Output
+bin/
+obj/
+publish/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Local settings (DO NOT COMMIT)
+appsettings.Development.json
+appsettings.Local.json
